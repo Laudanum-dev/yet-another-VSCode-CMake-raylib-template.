@@ -17,14 +17,15 @@ The repo contains first example from raylib's core example catalog.
 * Run with debugging: `Ctrl + F5` / `F1 -> CMake: Debug`
 * Release build: `F1 -> CMake: Select Variant -> Release` and then `F1 -> CMake: Build`. The result will be in build/ directory. __To be able to debug again__ you'll have to change configuration back to Debug (`F1 -> CMake: Select Variant -> Debug`)
 
-### Example info on how to build
-In case you are developing it with a team, or just making your project open source, some guide on how to build your app will be helpful. If you haven't done any changes to CMake files, the info above will be very actual.
+### Example info on how to build  
+In case you are developing it with a team, or just making your project open source, some guide on how to build your app will be helpful. If you haven't done any changes to CMake files, the info above will be very actual.  
+
 ---
 1) Install CMake from their official website (https://cmake.org/)
 2) Install C/C++ compiler
     2a) (Windows) Download MinGW-w64 from their official website (it might be complicated to do, easiest way so far is to download container'ed version from here https://github.com/skeeto/w64devkit/releases/tag/v1.10.0 (just download, extract, and put a path to it's bin folder into the PATH variable))
     2b) (Linux) Use any package manager you prefer (`sudo apt install build-essentials` for Ubuntu, `sudo pacman -S gcc` for Arch, anything like this)
-3) Clone repository (via green button above -> Download ZIP -> Extract it somewhere, or `git clone \[your_project_url.git\])
+3) Clone repository (via green button above -> Download ZIP -> Extract it somewhere, or `git clone \[your_project_url.git\]`)
 4) Let's say that your repository is now at for example `C:/repository/`, in case it's not then just replace this path in later steps
 5) Create inside the repository a folder called `build` (so it looks like `C:/repository/build/`)
 6) Open command line 
