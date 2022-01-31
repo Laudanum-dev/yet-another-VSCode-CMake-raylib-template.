@@ -13,9 +13,9 @@ The repo contains first example from raylib's core example catalog.
 8) You should be able to `F1 -> CMake: Configure` to install raylib and configure build files and then `F1 -> CMake: Build` to test out the building (result will be exe in build/ directory)
 
 ### How to run / debug
-* Run without debugging: `Ctrl + F5`
-* Run with debugging: `Shift + F5` / `F1 -> CMake: Debug`
-* Release build: `F1 -> CMake: Select Variant -> Release` and then `F1 -> CMake: Build`. The result will be in build/ directory.
+* Run without debugging: `Shift + F5`
+* Run with debugging: `Ctrl + F5` / `F1 -> CMake: Debug`
+* Release build: `F1 -> CMake: Select Variant -> Release` and then `F1 -> CMake: Build`. The result will be in build/ directory. __To be able to debug again__ you'll have to change configuration back to Debug (`F1 -> CMake: Select Variant -> Debug`)
 
 #### Sources of information:
 * raylib examples: https://www.raylib.com/examples.html
